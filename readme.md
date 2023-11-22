@@ -6,3 +6,8 @@ I have used it personally to compress CV's exported via Figma (big files) by wat
 It requires and uses [GhostScript](https://ghostscript.com/) with specified PATH env variable set to its bin folder.
 
 If the gs command is not recognized despite setting the env variable with ghostscript executable, then make a shortcut to it setting the name to gs.exe .
+
+## How to use 
+Create a folder with general script toolings and place the executable there replacing the name to `pdf_compress`
+Add the folder to PATH environment variable
+run a command line -> enter the folder you want to watch -> run `pdf_compress`
