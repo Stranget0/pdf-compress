@@ -1,5 +1,5 @@
 const { exec } = require("child_process");
-const { existsSync, statSync } = require("fs");
+const { existsSync } = require("fs");
 const { watch, unlink } = require("fs/promises");
 const path = require("path");
 const chalk = require("chalk");
