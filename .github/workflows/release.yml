@@ -20,7 +20,7 @@ jobs:
         with:
           version: 8
       - name: Install deps
-        run: pnpm install
+        run: pnpm install && pnpm add -g pkg
       - name: Build artifacts
         run: pnpm run build
 
