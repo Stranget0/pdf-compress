@@ -4,7 +4,7 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"build": "pnpm exec esbuild --bundle --minify --platform=node --packages=external --outdir=dist --allow-overwrite index.js && pkg -o release/pdf_compress --compress Brotli dist/index.js"
+		"build": "pnpm exec esbuild --bundle --minify --platform=node --packages=external --outdir=dist --allow-overwrite index.js && pkg -o release/pdf_compress --compress Brotli -t node18-linux,node18-win,node18-macos dist/index.js"
 	},
 	"keywords": [],
 	"author": "",
